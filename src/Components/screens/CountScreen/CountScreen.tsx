@@ -16,6 +16,3 @@ export const CountScreen: React.FC<countScreenProps> = ({ label, OnPress }) => {
         </Pressable>
     )
 };
-
-//export default CountScreen;
-

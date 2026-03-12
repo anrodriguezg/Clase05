@@ -6,10 +6,17 @@ export const appStyles = StyleSheet.create({
   safeArea: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
+    padding: 10,
     backgroundColor: colors.background
   },
   container: {
-    height: space.xl
+    height: 70
+  },
+  container2: {
+    height: 50
+  },
+  textTitle: {
+    fontSize: space.xl
   }
+
 });

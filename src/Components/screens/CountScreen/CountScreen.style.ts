@@ -4,22 +4,26 @@ import { space } from "../../../Themes";
 
 export const stylesCountScreen = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center"
   },
   text: {
-    fontSize: 18,
+    fontSize: 12,
   },
   labelText: {
     color: colors.background,
     fontStyle: "italic",
     fontSize: space.lg
   },
+  
   button: {
+    width: 40,
+    height: 40,
+     borderRadius: space.xl,
     backgroundColor: colors.primary,
-    borderRadius: space.xl,
-    padding: 5
-    
+    justifyContent: "center",
+    alignItems: "center",
+    margin: 10,
   }
 });
